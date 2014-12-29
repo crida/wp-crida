@@ -169,7 +169,6 @@ function la_crida_scripts() {
 		// Plugins
 		wp_enqueue_script( 'la_crida_modernizr', get_template_directory_uri() . '/assets/js/source/vendor/modernizr-custom.js', array() );
 		wp_enqueue_script( 'la_crida_headroom', get_template_directory_uri() . '/assets/js/source/vendor/headroom.min.js', array() );
-		wp_enqueue_script( 'la_crida_morpheus', get_template_directory_uri() . '/assets/js/source/vendor/svg-morpheus.js', array() );
 		wp_enqueue_script( 'la_crida_responsivenav', get_template_directory_uri() . '/assets/js/source/vendor/responsive-nav.js', array() );
 		if ( is_front_page() ) {
 			wp_enqueue_script( 'la_crida_slider', get_template_directory_uri() . '/assets/js/source/vendor/jquery.flexslider.js', array() );
@@ -177,10 +176,7 @@ function la_crida_scripts() {
 
 		// Custom scripts
 		wp_enqueue_script( 'la_crida_main', get_template_directory_uri() . '/assets/js/source/custom/main.js', array() );
-		wp_enqueue_script( 'la_crida_svgicons_config', get_template_directory_uri() . '/assets/js/source/custom/custom-svgicons-config.js', array(), NULL, true );
-		wp_enqueue_script( 'la_crida_svgicons', get_template_directory_uri() . '/assets/js/source/vendor/svgicons.js', array(), NULL, true );
-		wp_enqueue_script( 'la_crida_navicons_config', get_template_directory_uri() . '/assets/js/source/custom/custom-navicons-config.js', array(), NULL, true );
-		// wp_enqueue_script( 'la_crida_navicons', get_template_directory_uri() . '/assets/js/source/custom/custom-navicons.js', array() );		
+
 
 		
 		
