@@ -1,0 +1,90 @@
+/*!
+ * Theme Name:  La Crida
+ * Description: A mobile-first WordPress theme by Mark Bain Design
+ * Author:      Mark Bain
+ * Author URI:  http://markbaindesign.com
+ * Version:     0.1.0
+ * Tags:
+ *
+ * License:     GPLv2+
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+// Reset, Variables, Mixins, Etc
+// DO NOT EDIT ORDER OF FILE
+
+/* Colors */
+@import "colors/colors"; // Set up color vars and palettes
+@import "partials/mixins";
+@import "partials/variables";
+@import "partials/normalize";
+
+// Bower Components
+
+	@import "../../components/singularity/stylesheets/singularitygs";
+	@import "../../components/fontawesome/scss/font-awesome";
+	@import "../../components/breakpoint-sass/stylesheets/breakpoint";
+	@import "../../components/modular-scale/stylesheets/modular-scale";
+	@import "../../components/animate-sass/animate";
+
+// Helpers
+	@import "helpers/animate";
+
+// Globals
+@import "partials/h5bp-global";
+@import "partials/general";
+
+/* Typography */
+@import "typography/typography";
+
+// @import "partials/grid";
+// @import "partials/webfonts";
+
+// Layout
+@import "partials/layout";
+@import "partials/header";
+@import "partials/footer";
+
+// Modules
+@import "partials/hero";
+@import "partials/showcase";
+@import "partials/social";
+@import "partials/signup";
+@import "partials/masonry";
+@import "partials/featured-content";
+@import "partials/quotes";
+@import "partials/media-object";
+@import "partials/tables";
+@import "partials/svgicons";
+@import "partials/3d-button";
+@import "partials/headroom";
+
+
+// Flexslider
+@import "partials/flexslider";
+@import "partials/flexslider-mods";
+
+// Menus, Page and Post styles
+@import "partials/responsive-nav";
+@import "partials/menus";
+@import "partials/page-post";
+
+// Page Templates
+@import "partials/page-home";
+@import "partials/page-blog";
+
+// Widgets, Search, Comments, Forms, Sharing
+@import "partials/widgets";
+@import "partials/comments";
+@import "partials/forms";
+
+// WordPress
+@import "wp/wp"; // WP-generated classes
+@import "wp/widgets";
+@import "wp/comments";
+@import "wp/plugins/wp-contact";
+@import "wp/plugins/wp-paginate";
+
+// Helper Classes, Print, Etc
+@import "partials/helpers";
+@import "partials/print";

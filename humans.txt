@@ -1,0 +1,17 @@
+/* TEAM */
+	Developer: Mark Bain
+	Contact:   hello@markbaindesign.com
+	URI:       http://markbaindesign.com
+
+/* BASED ON */
+	Template Design: 10up
+	URI:             http://10up.com
+	Twitter:         @10up
+	
+	Template Design: Eric Mann
+	URI:             http://eamann.com
+	Twitter:         @ericmann
+	
+/* SITE */
+	Created:  2014-12-29
+	Template: https://github.com/markbaindesign/mbd-grunt-wp-theme
