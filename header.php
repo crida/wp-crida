@@ -20,3 +20,51 @@
 
 <body <?php body_class(); ?>>
 <main>
+<div id="page" class="hfeed site">
+
+
+
+			<header id="masthead" class="site-header section" role="banner">
+			<div class="container">
+				<div class="site-branding">
+					<h5 class="site-title bg-check-target">
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					
+							<img class="desktop-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" title="<?php bloginfo( 'name' ); ?>">
+
+						</a>
+					</h5>
+					<a id="nav-toggle" class="toggle"><!-- id "menu-toggle" required by responsive-nav.js Using custom toggle so can be translated -->
+						<span class="visuallyhidden"><?php _e( 'Menu', '_mbbasetheme' ); ?></span>
+					</a>
+
+				</div>
+
+
+				<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_mbbasetheme' ); ?></a>
+
+				<nav class="nav-collapse main-navigation bg-check-target">
+				<?php 
+					wp_nav_menu( 
+						array( 
+							'theme_location' => 'primary', 
+							'container' => 'ul', 
+							'container_class' => 'nav-collapse main-navigation ' // Required by responsive-nav.js
+						) 
+					); 
+				?>
+
+
+				<!-- <div id="nav-bar-search"><?php // get_search_form(); ?></div>-->
+				</nav><!-- .nav-collapse .main-navigation -->
+	<div class="social">
+			<ul class="social-media-links">
+				<li><a href=""><i aria-hidden="true" class="fa fa-twitter-square"></i><span class="visuallyhidden">Twitter</span></a></li> 
+				<li><a href=""><i aria-hidden="true" class="fa fa-facebook-square"></i><span class="visuallyhidden">Facebook</span></a></li> 
+				<!-- <li><a href="<?php bloginfo('rss2_url'); ?>"><i aria-hidden="true" class="icon-feed icon-left"></i><span class="visuallyhidden">RSS</span></a></li>-->
+			</ul>
+		</div><!-- .social -->
+
+			</div><!-- .container -->
+			</header><!-- #masthead -->
+			<div id="content">
