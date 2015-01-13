@@ -11,11 +11,6 @@ article {
 			@include grid-span(8, 17);
 		}
 	}
-	.entry-content {
-		@include breakpoint( $tablet ) {
-			@include grid-span(12, 1);
-		}
-	}
 }
 
 .image-wrapper {
