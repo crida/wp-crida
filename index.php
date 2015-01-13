@@ -8,6 +8,18 @@
  
 get_header(); ?>
 
-<p>This works!</p>
+<div id="main" class="section">
+	<div class="container">
+		<div id="primary" class="content-area">
+			<div class="content-container">
+			<?php while ( have_posts() ) : the_post(); ?>
+				<?php get_template_part( 'content' ); ?>
+				<?php endwhile; // end of the loop. ?>
+			</div>
+		</div><!-- #primary -->
+	
+		<?php get_sidebar(); ?>
+	</div><!-- .container -->
+</div><!-- #main -->
 
 <?php get_footer(); ?>
