@@ -181,11 +181,18 @@
 	@include add-gutter(1/6);
 	width: 100%;
 	display: block;
+	@extend .h5;
 	ul {
 		width: 100%;
 	}
 	li {
-		background: #eee;
+		background: $abbey;
+		&.current-menu-item {
+			background: $cardinal;
+		}
+		&:hover {
+			background: $cardinal;
+		}
 		&:nth-of-type(5n+1) {
 			@include breakpoint( $mobile-horizontal ){
 				@include grid-span(3, 1);
@@ -209,6 +216,13 @@
 		&:nth-of-type(5n+5) {
 			@include breakpoint( $mobile-horizontal ){
 				@include grid-span(3, 13);
+			}
+		}
+		a {
+			display: block;
+			padding: .2rem 3%;
+			&:link, &:visited {
+				color: $white;
 			}
 		}
 	}
