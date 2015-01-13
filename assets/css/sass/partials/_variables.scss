@@ -42,14 +42,8 @@ $width_menu-item: 150px; // Dropdown menu needs fixed width for positioning
 	
 	/* Colors */
 	
-	$color_red: 				red; 			/* example */
-	$color_yellow: 			yellow; 			/* example */	
-	$color_blue: 				rgba(0, 178, 255, 0.98);
-	$color_blue-green: 		darken( $color_blue, 40% );
-
-	$color_orange:	 			#A48445; 	
-	$color_green:	 			green; 		/* example */
-
+	$cardinal: 				#be1e2d;
+	
 /* Link color names to descriptive names 
 	Use these values outside of this stylesheet!
 */
@@ -67,10 +61,10 @@ $width_menu-item: 150px; // Dropdown menu needs fixed width for positioning
 	$color_text-anchor-active:			$color_black; 
 	
 	// Text Selection
-	$color_text-selection: 				$color_orange;
+	$color_text-selection: 				$cardinal;
 	
 	$color_background:					$color_white;
-	$color_background-cta:				$color_red;
+	$color_background-cta:				$cardinal;
 	$color_background-cta-2:			$color_white;
 	$color_background-nav:				$color_white;
 	
