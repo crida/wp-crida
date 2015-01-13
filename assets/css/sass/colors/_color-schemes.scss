@@ -3,13 +3,13 @@
 @mixin palette-0 {
 	$bg: $color_white;
 	background: $bg;	
-	color: $color_black;
+	color: $cardinal;
 	&::before {
 		background: darken($bg,3%);
 	}
 	a {
 		&:link, &:visited {
-			color: $color_black;
+			color: $cardinal;
 
 		}
 		&:hover {

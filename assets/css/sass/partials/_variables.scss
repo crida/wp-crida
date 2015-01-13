@@ -25,15 +25,11 @@ $width_menu-item: 150px; // Dropdown menu needs fixed width for positioning
    Colors
    ========================================================================== */
 
-/* Import libraries */
 
-	// @import "partials/color-me-sass";
-
-/* Assign values to color names */
 
 	/* Shades */
 	
-	$color_black: 				#333;		/* example */
+	$ship_gray: 				#333;		/* example */
 	$color_white: 				rgba(255,255,255,1);	
 	$color_white-bright: 	#fff;
 	$color_grey-dark: 		darken($color_white, 80%);
@@ -42,23 +38,26 @@ $width_menu-item: 150px; // Dropdown menu needs fixed width for positioning
 	
 	/* Colors */
 	
-	$cardinal: 				#be1e2d;
+	$white:								#ffffff;
+	$cardinal: 							#be1e2d;
+	$abbey:								#58595b;
+	$ship_gray:							#414042;
 	
 /* Link color names to descriptive names 
 	Use these values outside of this stylesheet!
 */
 
-	$color_text:							$color_black; 
-	$color_text-cta:						$color_white; 
+	$color_text:						$ship_gray; 
+	$color_text-cta:					$color_white; 
 	$color_text-cta-2:					$color_grey; 
-	$color_text-header:					$color_black; 
+	$color_text-header:					$ship_gray; 
 	$color_text-footer:					$color_grey; 
 
 	// Links
-	$color_text-anchor:					$color_black; 
-	$color_text-anchor-visited:		$color_black; 
-	$color_text-anchor-hover:			$color_black; 
-	$color_text-anchor-active:			$color_black; 
+	$color_text-anchor:					$ship_gray; 
+	$color_text-anchor-visited:			$ship_gray; 
+	$color_text-anchor-hover:			$ship_gray; 
+	$color_text-anchor-active:			$ship_gray; 
 	
 	// Text Selection
 	$color_text-selection: 				$cardinal;
@@ -77,7 +76,7 @@ $width_menu-item: 150px; // Dropdown menu needs fixed width for positioning
 
 	/* Hero */
 	$color_background-hero:				$color_grey-light;
-	$color_text-hero:						$color_black;
+	$color_text-hero:						$ship_gray;
 	
 	// h1, h2, h3, etc.
 	$color_heading-1-hero:				$color_white;
@@ -91,7 +90,7 @@ $width_menu-item: 150px; // Dropdown menu needs fixed width for positioning
 	
 	$color_background-footer:			$color_white;
 	
-	$color_border: 						$color_black;
+	$color_border: 						$ship_gray;
 
 	// Buttons
 	$color_text-button:					$color_grey;

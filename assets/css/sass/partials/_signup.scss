@@ -46,7 +46,7 @@ input {
 	width: 100%;
 	border-radius: 5px;
 	background: rgba(0, 0, 0, .1);
-	color: $color_black;
+	color: $cardinal;
 	
 	&[type=submit] {
 		// @include cta-primary;

@@ -7,7 +7,7 @@
 
 	/* Shades */
 	
-	$color_black: 				rgba(0,0,0,.8);
+	$cardinal: 				rgba(0,0,0,.8);
 	$color_white: 				rgba(255,255,255,1);	
 	$color_white-bright: 	#fff;
 
@@ -29,7 +29,7 @@
 	Use these values outside of this stylesheet!
 */
 
-	$color_text:							$color_black; 
+	$color_text:							$cardinal; 
 	$color_text-cta:						$color_white; 
 	$color_text-cta-2:					$color_grey; 
 
