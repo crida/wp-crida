@@ -17,8 +17,6 @@
 
 body {
 	color: $color_text;
-	background: #ddd;
-	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
 	@include breakpoint( $mobile-horizontal ) {
 		// text-align: left;
@@ -72,6 +70,8 @@ img {
 
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: $cardinal;
+	text-transform: uppercase;
 	margin: 0.5em 0;
 	clear: both;
 	// font-family: 'Alfa Slab One', sans-serif;
