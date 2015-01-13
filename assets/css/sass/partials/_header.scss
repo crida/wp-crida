@@ -19,7 +19,7 @@
 	top: 0;	
 	z-index: 100;
 	margin-top: 0;
-	position: fixed;
+	// position: fixed;
 	border-bottom: $color_grey;
 	@include breakpoint( $tablet ){
 		padding: $block-padding;
@@ -173,3 +173,43 @@
 }
 
 
+/* Secondary Navigation */
+
+.secondary-navigation {
+	@include clearfix;
+	@include add-grid(15);
+	@include add-gutter(1/6);
+	width: 100%;
+	display: block;
+	ul {
+		width: 100%;
+	}
+	li {
+		background: #eee;
+		&:nth-of-type(5n+1) {
+			@include breakpoint( $mobile-horizontal ){
+				@include grid-span(3, 1);
+			}
+		}
+		&:nth-of-type(5n+2) {
+			@include breakpoint( $mobile-horizontal ){
+				@include grid-span(3, 4);
+			}
+		}
+		&:nth-of-type(5n+3) {
+			@include breakpoint( $mobile-horizontal ){
+				@include grid-span(3, 7);
+			}
+		}
+		&:nth-of-type(5n+4) {
+			@include breakpoint( $mobile-horizontal ){
+				@include grid-span(3, 10);
+			}
+		}
+		&:nth-of-type(5n+5) {
+			@include breakpoint( $mobile-horizontal ){
+				@include grid-span(3, 13);
+			}
+		}
+	}
+}

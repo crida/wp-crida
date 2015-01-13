@@ -111,10 +111,8 @@ $width_menu-item: 150px; // Dropdown menu needs fixed width for positioning
    Singularity
    ========================================================================== */
 
-	// $grids: 									24;
-	$grids: 									add-grid(24 at 480px);
-
-	$gutters: 								1/3;
+	$grids: 								15;
+	$gutters: 								1/6;
 
 /* ==========================================================================
    Breakpoint
@@ -125,6 +123,6 @@ $width_menu-item: 150px; // Dropdown menu needs fixed width for positioning
 	$tablet: 								768px;
 	$tablet-horizontal: 					1024px;
 	$desktop: 								1280px;
-	$desktop-wide: 						1500px;
+	$desktop-wide: 							1500px;
 
 	$breakpoint-to-ems: 					true;

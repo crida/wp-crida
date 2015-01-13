@@ -49,6 +49,7 @@ function la_crida_setup() {
 	// Register nav menus
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'la_crida' ),
+		'secondary' => __( 'Secondary Menu', 'la_crida' ),
 	) );
 
 	// Add humans.txt to head

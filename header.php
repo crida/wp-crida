@@ -86,4 +86,22 @@
 
 			</div><!-- .container -->
 			</header><!-- #masthead -->
+			<div class="section">
+				<div class="container">
+			<nav class="nav-collapse secondary-navigation">
+				<?php 
+					wp_nav_menu( 
+						array( 
+							'theme_location' => 'secondary', 
+							'container' => 'ul', 
+							'container_class' => 'nav-collapse' // Required by responsive-nav.js
+						) 
+					); 
+				?>
+
+
+				<!-- <div id="nav-bar-search"><?php // get_search_form(); ?></div>-->
+				</nav><!-- .nav-collapse .main-navigation -->
+				</div><!-- .container -->
+				</div><!-- .section -->
 			<div id="content">
